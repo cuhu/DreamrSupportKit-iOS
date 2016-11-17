@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DreamrSupportKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DreamrSupportKit.'
+s.name             = 'DreamrSupportKit'
+s.version          = '1.1.0'
+s.summary          = 'A set of view controllers providing a customer feedback feature'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,29 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+    DreamrSupportKit is a reusable and customisable package containing a set of view controllers
+    that combine to provide a customer feedback feature.
+DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/DreamrSupportKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Tony Williams' => '92tonywills@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/DreamrSupportKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://gitlab.com/projects.dreamr.uk/DreamrSupportKit-iOS.git'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'Ryan Willis' => 'rw@dreamr.uk' }
+s.source           = { :git => 'https://gitlab.com/projects.dreamr.uk/DreamrSupportKit-iOS.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '9.0'
 
-  s.source_files = 'DreamrSupportKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'DreamrSupportKit' => ['DreamrSupportKit/Assets/*.png']
-  # }
+s.source_files = 'DreamrSupportKit/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.resources = ['DreamrSupportKit/Media.xcassets']
+
+# s.resource_bundles = {
+#   'DreamrSupportKit' => ['DreamrSupportKit/Assets/*.png']
+# }
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+# s.frameworks = 'UIKit', 'MapKit'
+# s.dependency 'AFNetworking', '~> 2.3'
 end

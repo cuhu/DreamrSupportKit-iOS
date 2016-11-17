@@ -1,0 +1,6 @@
+framework module DreamrSupportKit {
+  umbrella header "DreamrSupportKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

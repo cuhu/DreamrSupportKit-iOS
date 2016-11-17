@@ -1,0 +1,16 @@
+PODS:
+  - DreamrSupportKit (0.1.0)
+
+DEPENDENCIES:
+  - DreamrSupportKit (from `../`)
+
+EXTERNAL SOURCES:
+  DreamrSupportKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DreamrSupportKit: 978c1cb2cb80cea009bcf6a82f0fcd3cc28e5912
+
+PODFILE CHECKSUM: db3d5501749bdc25bb8a209137e9379026c1ddc9
+
+COCOAPODS: 1.1.1
