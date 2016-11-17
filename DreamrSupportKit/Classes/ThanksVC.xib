@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThanksVC" customModule="DreamrKit" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="WdT-Mu-pZm" id="Iyy-HA-KDc"/>
+                <outlet property="descriptionLbl" destination="rh3-kY-0fB" id="FyE-fY-EnD"/>
+                <outlet property="leftCS" destination="Kvc-uE-R2J" id="rct-JE-3cY"/>
+                <outlet property="rightCS" destination="puE-LU-f1W" id="3BY-9z-b06"/>
+                <outlet property="titleLbl" destination="g87-7o-XwC" id="cIR-65-LHJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WdT-Mu-pZm" customClass="GradientView" customModule="DreamrKit" customModuleProvider="target">
+                    <rect key="frame" x="30" y="180" width="540" height="240"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="YCW-jb-rtl">
+                            <rect key="frame" x="230" y="30" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="Q1A-k6-1w9"/>
+                                <constraint firstAttribute="width" constant="80" id="oqY-tl-HQi"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Thanks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g87-7o-XwC">
+                            <rect key="frame" x="8" y="114" width="524" height="32"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="We use feedback to help improve our app in future updates." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rh3-kY-0fB">
+                            <rect key="frame" x="8" y="166" width="524" height="18"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="YCW-jb-rtl" firstAttribute="centerY" secondItem="WdT-Mu-pZm" secondAttribute="centerY" constant="-50" id="2em-iT-Lgy"/>
+                        <constraint firstItem="g87-7o-XwC" firstAttribute="top" secondItem="YCW-jb-rtl" secondAttribute="bottom" constant="4" id="AaQ-ki-OmE"/>
+                        <constraint firstItem="rh3-kY-0fB" firstAttribute="leading" secondItem="WdT-Mu-pZm" secondAttribute="leading" constant="8" id="ArG-CJ-qxH"/>
+                        <constraint firstItem="g87-7o-XwC" firstAttribute="leading" secondItem="WdT-Mu-pZm" secondAttribute="leading" constant="8" id="D3y-Ng-yPD"/>
+                        <constraint firstItem="YCW-jb-rtl" firstAttribute="centerX" secondItem="WdT-Mu-pZm" secondAttribute="centerX" id="HNp-VX-uVu"/>
+                        <constraint firstAttribute="trailing" secondItem="rh3-kY-0fB" secondAttribute="trailing" constant="8" id="Syq-M6-95e"/>
+                        <constraint firstItem="rh3-kY-0fB" firstAttribute="top" secondItem="g87-7o-XwC" secondAttribute="bottom" constant="20" id="i9R-8g-CaL"/>
+                        <constraint firstAttribute="height" constant="240" id="jkn-NU-7WH"/>
+                        <constraint firstAttribute="trailing" secondItem="g87-7o-XwC" secondAttribute="trailing" constant="8" id="oIl-Gm-C6j"/>
+                        <constraint firstAttribute="width" constant="300" id="svL-bx-ki5"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                            <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                            <color key="value" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="diagonalMode" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="svL-bx-ki5"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="WdT-Mu-pZm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="Kvc-uE-R2J"/>
+                <constraint firstAttribute="trailing" secondItem="WdT-Mu-pZm" secondAttribute="trailing" constant="30" id="puE-LU-f1W"/>
+                <constraint firstItem="WdT-Mu-pZm" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="wU5-aM-1BI"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="checked" width="512" height="512"/>
+    </resources>
+</document>

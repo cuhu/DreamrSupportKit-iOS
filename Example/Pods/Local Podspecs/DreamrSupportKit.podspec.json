@@ -1,22 +1,25 @@
 {
   "name": "DreamrSupportKit",
-  "version": "0.1.0",
-  "summary": "A short description of DreamrSupportKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/DreamrSupportKit",
+  "version": "1.1.0",
+  "summary": "A set of view controllers providing a customer feedback feature",
+  "description": "DreamrSupportKit is a reusable and customisable package containing a set of view controllers\nthat combine to provide a customer feedback feature.",
+  "homepage": "https://gitlab.com/projects.dreamr.uk/DreamrSupportKit-iOS.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Tony Williams": "92tonywills@gmail.com"
+    "Ryan Willis": "rw@dreamr.uk"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/DreamrSupportKit.git",
-    "tag": "0.1.0"
+    "git": "https://gitlab.com/projects.dreamr.uk/DreamrSupportKit-iOS.git",
+    "tag": "1.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "DreamrSupportKit/Classes/**/*"
+  "source_files": "DreamrSupportKit/Classes/**/*",
+  "resources": [
+    "DreamrSupportKit/Media.xcassets"
+  ]
 }

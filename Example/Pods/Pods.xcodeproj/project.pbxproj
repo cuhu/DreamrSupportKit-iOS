@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F40513CD59EA20DBF2114DEF24E8721 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B862105958E71797DD746D3402BE40 /* ReplaceMe.swift */; };
-		330031F998FDE7B686384816BB42303D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		3DDCB35352C9B6360C7D459019E8427A /* Pods-DreamrSupportKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058499D39AA53C7E7E5B023077B40D5 /* Pods-DreamrSupportKit_Tests-dummy.m */; };
-		4486BA1D7FC2BDD6C91B35A0F1A9BEFE /* Pods-DreamrSupportKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7613AC4774D55EE2A91A5DAA1E88882 /* Pods-DreamrSupportKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		668DD63B94B12ABA1D01C4B276DD0664 /* DreamrSupportKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFF156921527FEED7E422113CFF1B20 /* DreamrSupportKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB0E2469F7E4797ECB089B221582C82C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		B3A8AF04EEE22F95F77B55CF63D39D9B /* Pods-DreamrSupportKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C7594C36A7B7FADE2CC57E0A24D38D /* Pods-DreamrSupportKit_Example-dummy.m */; };
-		BC7669A64A7BE8CFC208E39E4C250AE5 /* DreamrSupportKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B65C236523871964C47725F6EE64413 /* DreamrSupportKit-dummy.m */; };
-		DFC9E00F75A00CEB845FCF3F6A24261E /* Pods-DreamrSupportKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C328A3E99DB80C9C60A30C90C21195C /* Pods-DreamrSupportKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1136A7FD6C2B8317B9CB3E0C23B67999 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F1D7E1F8AAFCA25C32FB8C9D2A59B /* WelcomeVC.swift */; };
+		1306401C86606BE59EB89CD73C6D46D1 /* DreamrSupportKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD4CADB1E94C2559B69B7AAB18F7BDF /* DreamrSupportKit.swift */; };
+		19C52D66125E41818C66F3F73C4E3441 /* SupportNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DBB6B5A0584B004B36BFE978CAC7E /* SupportNavigationController.swift */; };
+		19E27C4DF61A6D6FDED6F4591246FBE2 /* DreamrSupportKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD55AE5CA2A9F2E0FA375B605FA35E8 /* DreamrSupportKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F583B4A929638DDD7A27F17A279C457 /* ThanksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8295C8A35D1DCCF19EFB36BCE81E6C /* ThanksVC.swift */; };
+		3854C679294ABFD075AF80FCE6676D0B /* UIDevice + Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC80A25FF5463F3D66C47FECE2ABFF1 /* UIDevice + Custom.swift */; };
+		38E63319777F2D51C33EA612215C8A4D /* SupportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370AA4CB1FF047CB7650F05C2BA271F0 /* SupportButton.swift */; };
+		435FF5F2043FA6D438AD35AC7E73E4CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4486BA1D7FC2BDD6C91B35A0F1A9BEFE /* Pods-DreamrSupportKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 414AE9640FB6C153CB92860EB896A803 /* Pods-DreamrSupportKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47D35D93DBF2EDB8FD759842455F2947 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5885F7B90EA4454A5DB3E4D3318852E1 /* GradientView.swift */; };
+		4D6CD9C6A86FBD070917F1BBB7C45A17 /* ZoomAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A451D42CCE8482DAADC80171F7DA2B7C /* ZoomAnimationController.swift */; };
+		727567C9205AEA4731820A952F220328 /* KitModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A831B24708B0872880449619B842D7 /* KitModifiers.swift */; };
+		92FCCA64441A5CB94453FB9FC70FD368 /* WelcomeVC.xib in Sources */ = {isa = PBXBuildFile; fileRef = 66EA21C67376E6409F9B0C87E0CE14E0 /* WelcomeVC.xib */; };
+		A0048FBD2F31C3D78EECB5442AABCD4D /* KeyboardWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6277F9219744820943C96DC2AD16CD76 /* KeyboardWatcher.swift */; };
+		A4AAC152B30B65604603730665B0992A /* DreamrSupportKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F669821A9E7022DB0F135DBB178EDB6F /* DreamrSupportKit-dummy.m */; };
+		A4F84C2D61491D6A9562AAC3AD45B24F /* OptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA8A8D4E365DF32314DB5C0EB17985 /* OptionVC.swift */; };
+		AAF4F2167EF02C06AE34EB683CF19EDB /* SupportVC.xib in Sources */ = {isa = PBXBuildFile; fileRef = F8614DDBCD8144E63E0CBD7B938C81A4 /* SupportVC.xib */; };
+		B3A8AF04EEE22F95F77B55CF63D39D9B /* Pods-DreamrSupportKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E51CAADFD026303442D82211AF240140 /* Pods-DreamrSupportKit_Example-dummy.m */; };
+		B47CE37F725EC26B1F9A8EE840C4F47D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E906FF4F5DCA6237229BEB9601D007D3 /* Media.xcassets */; };
+		BA71EB72CD5C2CB5532A4723D0147E66 /* FeedbackVC.xib in Sources */ = {isa = PBXBuildFile; fileRef = 29BCDF8F8AFF430EDFD47E939B997849 /* FeedbackVC.xib */; };
+		BE80D6F45DC45D588320DA65EDFF5E9A /* UIScreen + Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC99FDC2AFDCB69041D66CA6953EDB5 /* UIScreen + Custom.swift */; };
+		DE14CDB2CA7012DD9AF38D9FED9D54D0 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D10D6F4203EDBAC499289CA5D74CC8 /* FeedbackVC.swift */; };
+		E0AA65DC947E1470CC87A57839ACB74B /* ThanksVC.xib in Sources */ = {isa = PBXBuildFile; fileRef = BC9CC78BF82787ED334842DAFAD2E738 /* ThanksVC.xib */; };
+		E10842C987CAE349EB2DA1BCB1D2128F /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B76D274B748A487CE419ED2454A67E /* SupportVC.swift */; };
 		F7DE87A977D3B56053706131BBE7F5AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FAD6CA9007D255033DD2E78C1F3E3E36 /* OptionVC.xib in Sources */ = {isa = PBXBuildFile; fileRef = E82C71C4406257CFC067BD4ACFC56968 /* OptionVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,55 +40,55 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BFF822DF3140E399D36A3E949593A21A;
+			remoteGlobalIDString = 84436BCF967D877755F8FB17AED82749;
 			remoteInfo = DreamrSupportKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D35309EA55CFAB2F32838367391FF40 /* DreamrSupportKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DreamrSupportKit.modulemap; sourceTree = "<group>"; };
-		0DBCBC7DC379361FF205A58CDB863838 /* Pods-DreamrSupportKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DreamrSupportKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		10C7594C36A7B7FADE2CC57E0A24D38D /* Pods-DreamrSupportKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DreamrSupportKit_Example-dummy.m"; sourceTree = "<group>"; };
-		11FA265D6824B30D61B0378A6F703D13 /* Pods-DreamrSupportKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DreamrSupportKit_Tests.modulemap"; sourceTree = "<group>"; };
-		15B1E6FDD752F8F404AEDDE21B86D4F4 /* Pods-DreamrSupportKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DreamrSupportKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		162FE07FD6FD6ED020DF019DF6437F44 /* Pods-DreamrSupportKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DreamrSupportKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		295388946D8CDFCBC0FE7AA11F194907 /* Pods_DreamrSupportKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamrSupportKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4830DC838E97A371C56D06E1E5DD2757 /* Pods-DreamrSupportKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DreamrSupportKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4BB7260B4A2E2E0165AB48A507FCE8F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		571EFC27EEB7E228C1C0A5FA595DA821 /* Pods-DreamrSupportKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DreamrSupportKit_Example-resources.sh"; sourceTree = "<group>"; };
-		5CFF156921527FEED7E422113CFF1B20 /* DreamrSupportKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DreamrSupportKit-umbrella.h"; sourceTree = "<group>"; };
-		6B65C236523871964C47725F6EE64413 /* DreamrSupportKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DreamrSupportKit-dummy.m"; sourceTree = "<group>"; };
-		721D4A33EFB58ACC8B76050C27D26BDB /* Pods-DreamrSupportKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DreamrSupportKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		74969AF79BA1FAB54F40700D1EAFB368 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82586326E39C88693731D260221894B4 /* Pods-DreamrSupportKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DreamrSupportKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		8C328A3E99DB80C9C60A30C90C21195C /* Pods-DreamrSupportKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DreamrSupportKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9058499D39AA53C7E7E5B023077B40D5 /* Pods-DreamrSupportKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DreamrSupportKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		02A4283301CCC046DD52D8EDE82D26CC /* Pods-DreamrSupportKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DreamrSupportKit_Example.modulemap"; sourceTree = "<group>"; };
+		05DA8A8D4E365DF32314DB5C0EB17985 /* OptionVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OptionVC.swift; sourceTree = "<group>"; };
+		196DBB6B5A0584B004B36BFE978CAC7E /* SupportNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SupportNavigationController.swift; sourceTree = "<group>"; };
+		29BCDF8F8AFF430EDFD47E939B997849 /* FeedbackVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = FeedbackVC.xib; sourceTree = "<group>"; };
+		2CDC2DD95CEF122BEF2F02C496ECD204 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D286CC70E58D566D8940B9082271B9 /* DreamrSupportKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DreamrSupportKit-prefix.pch"; sourceTree = "<group>"; };
+		370AA4CB1FF047CB7650F05C2BA271F0 /* SupportButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SupportButton.swift; sourceTree = "<group>"; };
+		37D6608A1B455D82524F6B9558D96580 /* DreamrSupportKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DreamrSupportKit.modulemap; sourceTree = "<group>"; };
+		414AE9640FB6C153CB92860EB896A803 /* Pods-DreamrSupportKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DreamrSupportKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		5885F7B90EA4454A5DB3E4D3318852E1 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		5AD55AE5CA2A9F2E0FA375B605FA35E8 /* DreamrSupportKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DreamrSupportKit-umbrella.h"; sourceTree = "<group>"; };
+		6277F9219744820943C96DC2AD16CD76 /* KeyboardWatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardWatcher.swift; sourceTree = "<group>"; };
+		66EA21C67376E6409F9B0C87E0CE14E0 /* WelcomeVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = WelcomeVC.xib; sourceTree = "<group>"; };
+		70F64A552147DDDA5AA824C8F3A52BD5 /* Pods-DreamrSupportKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DreamrSupportKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		763DB4B1F15A73736428E78E1AD24124 /* Pods-DreamrSupportKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DreamrSupportKit_Example-resources.sh"; sourceTree = "<group>"; };
+		7640865583AB3A8399DEFD48FAC1E4CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D10D6F4203EDBAC499289CA5D74CC8 /* FeedbackVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		84AD98288C703DA7A3C93158C1D816D0 /* Pods_DreamrSupportKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamrSupportKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C4D841255F050F21F7B0084EC46F21 /* Pods-DreamrSupportKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DreamrSupportKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8EC99FDC2AFDCB69041D66CA6953EDB5 /* UIScreen + Custom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScreen + Custom.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		989EC65DD471232CAF2F5846FC8D287B /* DreamrSupportKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DreamrSupportKit-prefix.pch"; sourceTree = "<group>"; };
-		AAFD150D2B8D87666BF707DF45CB4EE1 /* DreamrSupportKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DreamrSupportKit.xcconfig; sourceTree = "<group>"; };
-		B3B862105958E71797DD746D3402BE40 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		B61EEC854732FA0231F93FB46E0A6B2E /* Pods_DreamrSupportKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamrSupportKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB624136746758CD4EC82D6059E69784 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4FCE47FC53C51B185E8A9CA4B6AC5A9 /* Pods-DreamrSupportKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DreamrSupportKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C9995770CC2F617CB291C1797FC36C51 /* Pods-DreamrSupportKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DreamrSupportKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9FD4CADB1E94C2559B69B7AAB18F7BDF /* DreamrSupportKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DreamrSupportKit.swift; sourceTree = "<group>"; };
+		A451D42CCE8482DAADC80171F7DA2B7C /* ZoomAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZoomAnimationController.swift; sourceTree = "<group>"; };
+		BC8295C8A35D1DCCF19EFB36BCE81E6C /* ThanksVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThanksVC.swift; sourceTree = "<group>"; };
+		BC9CC78BF82787ED334842DAFAD2E738 /* ThanksVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ThanksVC.xib; sourceTree = "<group>"; };
+		BEA5F115286018F43F2D9830F986C48B /* DreamrSupportKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DreamrSupportKit.xcconfig; sourceTree = "<group>"; };
+		C8AB3EE16A4A0FFDBA7BE6DFAF76F4E8 /* DreamrSupportKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DreamrSupportKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D7613AC4774D55EE2A91A5DAA1E88882 /* Pods-DreamrSupportKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DreamrSupportKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		DA3C3CB3D49F080745BF321D116D6AAF /* Pods-DreamrSupportKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DreamrSupportKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E0304BB3BF4C517FD24846C97F951829 /* Pods-DreamrSupportKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DreamrSupportKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EEEC2D6AA7140432D8ED1653F936BE6F /* Pods-DreamrSupportKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DreamrSupportKit_Example.modulemap"; sourceTree = "<group>"; };
-		F6F6F66B210CD19FA54184D2E2488BC7 /* Pods-DreamrSupportKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DreamrSupportKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FCE062C3A228CE4706E85C6E02EB8541 /* DreamrSupportKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DreamrSupportKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EB43F84773BBF35A17450715016E5D /* Pods-DreamrSupportKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DreamrSupportKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7A831B24708B0872880449619B842D7 /* KitModifiers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KitModifiers.swift; sourceTree = "<group>"; };
+		DAC80A25FF5463F3D66C47FECE2ABFF1 /* UIDevice + Custom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDevice + Custom.swift"; sourceTree = "<group>"; };
+		DB0F1D7E1F8AAFCA25C32FB8C9D2A59B /* WelcomeVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		E2B76D274B748A487CE419ED2454A67E /* SupportVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
+		E51CAADFD026303442D82211AF240140 /* Pods-DreamrSupportKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DreamrSupportKit_Example-dummy.m"; sourceTree = "<group>"; };
+		E82C71C4406257CFC067BD4ACFC56968 /* OptionVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OptionVC.xib; sourceTree = "<group>"; };
+		E906FF4F5DCA6237229BEB9601D007D3 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		F382E53E400119D17CD9DB74DDC7ED24 /* Pods-DreamrSupportKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DreamrSupportKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F669821A9E7022DB0F135DBB178EDB6F /* DreamrSupportKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DreamrSupportKit-dummy.m"; sourceTree = "<group>"; };
+		F6A1F8B1EFF27B885686B32AB890723A /* Pods-DreamrSupportKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DreamrSupportKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8614DDBCD8144E63E0CBD7B938C81A4 /* SupportVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SupportVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29C4B1CEC098EFE01879275ACC41CE05 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				330031F998FDE7B686384816BB42303D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2B4736890F1790382E7AD934DB029BDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,69 +97,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D33028A05CBA0B47EB32B93E12211759 /* Frameworks */ = {
+		770697C9782742EB5636F3989762B70F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB0E2469F7E4797ECB089B221582C82C /* Foundation.framework in Frameworks */,
+				435FF5F2043FA6D438AD35AC7E73E4CC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04471128B3703D6170547A37E05800D0 /* Products */ = {
+		0BC42E0EE05DEA02536F3DF13266F783 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FCE062C3A228CE4706E85C6E02EB8541 /* DreamrSupportKit.framework */,
-				295388946D8CDFCBC0FE7AA11F194907 /* Pods_DreamrSupportKit_Example.framework */,
-				B61EEC854732FA0231F93FB46E0A6B2E /* Pods_DreamrSupportKit_Tests.framework */,
+				B24DF9ABB25B023BEC324062C77ADF4C /* DreamrSupportKit */,
 			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		17BA07BB1D6144854A25CE8F3AB80F12 /* DreamrSupportKit */ = {
+		0EEAC59301C26BA44A58C4FC05ABCF65 /* DreamrSupportKit */ = {
 			isa = PBXGroup;
 			children = (
-				19B1CA8B6C1C6B241FD9EE6C6C3D041D /* Classes */,
+				E906FF4F5DCA6237229BEB9601D007D3 /* Media.xcassets */,
 			);
 			path = DreamrSupportKit;
 			sourceTree = "<group>";
 		};
-		19B1CA8B6C1C6B241FD9EE6C6C3D041D /* Classes */ = {
+		1EE9F5746D26D9D8723CDEB990AC0477 /* DreamrSupportKit */ = {
 			isa = PBXGroup;
 			children = (
-				B3B862105958E71797DD746D3402BE40 /* ReplaceMe.swift */,
+				F0945FF95C39A3EFAFE4E1C99579F584 /* Classes */,
 			);
-			path = Classes;
+			path = DreamrSupportKit;
 			sourceTree = "<group>";
 		};
-		2597145277FF7B16C46535253DCB4A17 /* DreamrSupportKit */ = {
+		5009912529081E7715DB0EAEC5086869 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				17BA07BB1D6144854A25CE8F3AB80F12 /* DreamrSupportKit */,
-				CA358142F000DE3E5B16015CFEE794E4 /* Support Files */,
+				0EEAC59301C26BA44A58C4FC05ABCF65 /* DreamrSupportKit */,
 			);
-			name = DreamrSupportKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		70603454635A2E21C95BCE6A4941AFFA /* Pods-DreamrSupportKit_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				BB624136746758CD4EC82D6059E69784 /* Info.plist */,
-				11FA265D6824B30D61B0378A6F703D13 /* Pods-DreamrSupportKit_Tests.modulemap */,
-				E0304BB3BF4C517FD24846C97F951829 /* Pods-DreamrSupportKit_Tests-acknowledgements.markdown */,
-				0DBCBC7DC379361FF205A58CDB863838 /* Pods-DreamrSupportKit_Tests-acknowledgements.plist */,
-				9058499D39AA53C7E7E5B023077B40D5 /* Pods-DreamrSupportKit_Tests-dummy.m */,
-				162FE07FD6FD6ED020DF019DF6437F44 /* Pods-DreamrSupportKit_Tests-frameworks.sh */,
-				82586326E39C88693731D260221894B4 /* Pods-DreamrSupportKit_Tests-resources.sh */,
-				8C328A3E99DB80C9C60A30C90C21195C /* Pods-DreamrSupportKit_Tests-umbrella.h */,
-				DA3C3CB3D49F080745BF321D116D6AAF /* Pods-DreamrSupportKit_Tests.debug.xcconfig */,
-				4830DC838E97A371C56D06E1E5DD2757 /* Pods-DreamrSupportKit_Tests.release.xcconfig */,
-			);
-			name = "Pods-DreamrSupportKit_Tests";
-			path = "Target Support Files/Pods-DreamrSupportKit_Tests";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -158,46 +152,71 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8D42B1E37901DC8A0B34D752471F741F /* Development Pods */,
+				0BC42E0EE05DEA02536F3DF13266F783 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				04471128B3703D6170547A37E05800D0 /* Products */,
-				BA56C684E54084ADC26FF8E87D74995A /* Targets Support Files */,
+				94A5DB39D7C5AA48DECA9334DD2E57B0 /* Products */,
+				9458974429B07FAF5D72A5C85FD166BF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D42B1E37901DC8A0B34D752471F741F /* Development Pods */ = {
+		8DEC70414C84771F7FD848D5EB2A2083 /* Pods-DreamrSupportKit_Example */ = {
 			isa = PBXGroup;
 			children = (
-				2597145277FF7B16C46535253DCB4A17 /* DreamrSupportKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B68AB1520BA9550A5592A47B31E68A3C /* Pods-DreamrSupportKit_Example */ = {
-			isa = PBXGroup;
-			children = (
-				4BB7260B4A2E2E0165AB48A507FCE8F7 /* Info.plist */,
-				EEEC2D6AA7140432D8ED1653F936BE6F /* Pods-DreamrSupportKit_Example.modulemap */,
-				C4FCE47FC53C51B185E8A9CA4B6AC5A9 /* Pods-DreamrSupportKit_Example-acknowledgements.markdown */,
-				15B1E6FDD752F8F404AEDDE21B86D4F4 /* Pods-DreamrSupportKit_Example-acknowledgements.plist */,
-				10C7594C36A7B7FADE2CC57E0A24D38D /* Pods-DreamrSupportKit_Example-dummy.m */,
-				C9995770CC2F617CB291C1797FC36C51 /* Pods-DreamrSupportKit_Example-frameworks.sh */,
-				571EFC27EEB7E228C1C0A5FA595DA821 /* Pods-DreamrSupportKit_Example-resources.sh */,
-				D7613AC4774D55EE2A91A5DAA1E88882 /* Pods-DreamrSupportKit_Example-umbrella.h */,
-				F6F6F66B210CD19FA54184D2E2488BC7 /* Pods-DreamrSupportKit_Example.debug.xcconfig */,
-				721D4A33EFB58ACC8B76050C27D26BDB /* Pods-DreamrSupportKit_Example.release.xcconfig */,
+				7640865583AB3A8399DEFD48FAC1E4CC /* Info.plist */,
+				02A4283301CCC046DD52D8EDE82D26CC /* Pods-DreamrSupportKit_Example.modulemap */,
+				F6A1F8B1EFF27B885686B32AB890723A /* Pods-DreamrSupportKit_Example-acknowledgements.markdown */,
+				D6EB43F84773BBF35A17450715016E5D /* Pods-DreamrSupportKit_Example-acknowledgements.plist */,
+				E51CAADFD026303442D82211AF240140 /* Pods-DreamrSupportKit_Example-dummy.m */,
+				F382E53E400119D17CD9DB74DDC7ED24 /* Pods-DreamrSupportKit_Example-frameworks.sh */,
+				763DB4B1F15A73736428E78E1AD24124 /* Pods-DreamrSupportKit_Example-resources.sh */,
+				414AE9640FB6C153CB92860EB896A803 /* Pods-DreamrSupportKit_Example-umbrella.h */,
+				88C4D841255F050F21F7B0084EC46F21 /* Pods-DreamrSupportKit_Example.debug.xcconfig */,
+				70F64A552147DDDA5AA824C8F3A52BD5 /* Pods-DreamrSupportKit_Example.release.xcconfig */,
 			);
 			name = "Pods-DreamrSupportKit_Example";
 			path = "Target Support Files/Pods-DreamrSupportKit_Example";
 			sourceTree = "<group>";
 		};
-		BA56C684E54084ADC26FF8E87D74995A /* Targets Support Files */ = {
+		9458974429B07FAF5D72A5C85FD166BF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B68AB1520BA9550A5592A47B31E68A3C /* Pods-DreamrSupportKit_Example */,
-				70603454635A2E21C95BCE6A4941AFFA /* Pods-DreamrSupportKit_Tests */,
+				8DEC70414C84771F7FD848D5EB2A2083 /* Pods-DreamrSupportKit_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		94A5DB39D7C5AA48DECA9334DD2E57B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8AB3EE16A4A0FFDBA7BE6DFAF76F4E8 /* DreamrSupportKit.framework */,
+				84AD98288C703DA7A3C93158C1D816D0 /* Pods_DreamrSupportKit_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B24DF9ABB25B023BEC324062C77ADF4C /* DreamrSupportKit */ = {
+			isa = PBXGroup;
+			children = (
+				1EE9F5746D26D9D8723CDEB990AC0477 /* DreamrSupportKit */,
+				5009912529081E7715DB0EAEC5086869 /* Resources */,
+				B7ED6FECABFA8C397EE642A8E383ABCF /* Support Files */,
+			);
+			name = DreamrSupportKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B7ED6FECABFA8C397EE642A8E383ABCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37D6608A1B455D82524F6B9558D96580 /* DreamrSupportKit.modulemap */,
+				BEA5F115286018F43F2D9830F986C48B /* DreamrSupportKit.xcconfig */,
+				F669821A9E7022DB0F135DBB178EDB6F /* DreamrSupportKit-dummy.m */,
+				33D286CC70E58D566D8940B9082271B9 /* DreamrSupportKit-prefix.pch */,
+				5AD55AE5CA2A9F2E0FA375B605FA35E8 /* DreamrSupportKit-umbrella.h */,
+				2CDC2DD95CEF122BEF2F02C496ECD204 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DreamrSupportKit";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -208,18 +227,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA358142F000DE3E5B16015CFEE794E4 /* Support Files */ = {
+		F0945FF95C39A3EFAFE4E1C99579F584 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0D35309EA55CFAB2F32838367391FF40 /* DreamrSupportKit.modulemap */,
-				AAFD150D2B8D87666BF707DF45CB4EE1 /* DreamrSupportKit.xcconfig */,
-				6B65C236523871964C47725F6EE64413 /* DreamrSupportKit-dummy.m */,
-				989EC65DD471232CAF2F5846FC8D287B /* DreamrSupportKit-prefix.pch */,
-				5CFF156921527FEED7E422113CFF1B20 /* DreamrSupportKit-umbrella.h */,
-				74969AF79BA1FAB54F40700D1EAFB368 /* Info.plist */,
+				9FD4CADB1E94C2559B69B7AAB18F7BDF /* DreamrSupportKit.swift */,
+				76D10D6F4203EDBAC499289CA5D74CC8 /* FeedbackVC.swift */,
+				29BCDF8F8AFF430EDFD47E939B997849 /* FeedbackVC.xib */,
+				5885F7B90EA4454A5DB3E4D3318852E1 /* GradientView.swift */,
+				6277F9219744820943C96DC2AD16CD76 /* KeyboardWatcher.swift */,
+				D7A831B24708B0872880449619B842D7 /* KitModifiers.swift */,
+				05DA8A8D4E365DF32314DB5C0EB17985 /* OptionVC.swift */,
+				E82C71C4406257CFC067BD4ACFC56968 /* OptionVC.xib */,
+				370AA4CB1FF047CB7650F05C2BA271F0 /* SupportButton.swift */,
+				196DBB6B5A0584B004B36BFE978CAC7E /* SupportNavigationController.swift */,
+				E2B76D274B748A487CE419ED2454A67E /* SupportVC.swift */,
+				F8614DDBCD8144E63E0CBD7B938C81A4 /* SupportVC.xib */,
+				BC8295C8A35D1DCCF19EFB36BCE81E6C /* ThanksVC.swift */,
+				BC9CC78BF82787ED334842DAFAD2E738 /* ThanksVC.xib */,
+				DAC80A25FF5463F3D66C47FECE2ABFF1 /* UIDevice + Custom.swift */,
+				8EC99FDC2AFDCB69041D66CA6953EDB5 /* UIScreen + Custom.swift */,
+				DB0F1D7E1F8AAFCA25C32FB8C9D2A59B /* WelcomeVC.swift */,
+				66EA21C67376E6409F9B0C87E0CE14E0 /* WelcomeVC.xib */,
+				A451D42CCE8482DAADC80171F7DA2B7C /* ZoomAnimationController.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DreamrSupportKit";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,42 +264,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62874AC4B9C7F462752E9F90AAC807EF /* Headers */ = {
+		C21A41450CE1BA517F61FC682E38A32D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				668DD63B94B12ABA1D01C4B276DD0664 /* DreamrSupportKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		726B5C069B48D7ED1092F54230386C6B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFC9E00F75A00CEB845FCF3F6A24261E /* Pods-DreamrSupportKit_Tests-umbrella.h in Headers */,
+				19E27C4DF61A6D6FDED6F4591246FBE2 /* DreamrSupportKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		46590E6F543C3AEFEA94B26D275EC2F8 /* Pods-DreamrSupportKit_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE0C823B780604B5C9F65D1A9C26A4EB /* Build configuration list for PBXNativeTarget "Pods-DreamrSupportKit_Tests" */;
-			buildPhases = (
-				C981B8A3D6B3107F8265D60BD4EAF55A /* Sources */,
-				29C4B1CEC098EFE01879275ACC41CE05 /* Frameworks */,
-				726B5C069B48D7ED1092F54230386C6B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-DreamrSupportKit_Tests";
-			productName = "Pods-DreamrSupportKit_Tests";
-			productReference = B61EEC854732FA0231F93FB46E0A6B2E /* Pods_DreamrSupportKit_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		792F71C27A65D6A862553F621EBFFD6D /* Pods-DreamrSupportKit_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEBB8E80B05609F84BC4C9239F2197F4 /* Build configuration list for PBXNativeTarget "Pods-DreamrSupportKit_Example" */;
@@ -284,16 +290,17 @@
 			);
 			name = "Pods-DreamrSupportKit_Example";
 			productName = "Pods-DreamrSupportKit_Example";
-			productReference = 295388946D8CDFCBC0FE7AA11F194907 /* Pods_DreamrSupportKit_Example.framework */;
+			productReference = 84AD98288C703DA7A3C93158C1D816D0 /* Pods_DreamrSupportKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BFF822DF3140E399D36A3E949593A21A /* DreamrSupportKit */ = {
+		84436BCF967D877755F8FB17AED82749 /* DreamrSupportKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0F9E6B69D5F1592137A2635550047F4 /* Build configuration list for PBXNativeTarget "DreamrSupportKit" */;
+			buildConfigurationList = E6E1C28274A7C522C614645545353B37 /* Build configuration list for PBXNativeTarget "DreamrSupportKit" */;
 			buildPhases = (
-				B28C91E8CCFF4C43761B81B4A87360BD /* Sources */,
-				D33028A05CBA0B47EB32B93E12211759 /* Frameworks */,
-				62874AC4B9C7F462752E9F90AAC807EF /* Headers */,
+				0079995184F648E6583A13EF21F568A9 /* Sources */,
+				770697C9782742EB5636F3989762B70F /* Frameworks */,
+				020056C857BBCA0F86E74965B07D5D10 /* Resources */,
+				C21A41450CE1BA517F61FC682E38A32D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -301,7 +308,7 @@
 			);
 			name = DreamrSupportKit;
 			productName = DreamrSupportKit;
-			productReference = FCE062C3A228CE4706E85C6E02EB8541 /* DreamrSupportKit.framework */;
+			productReference = C8AB3EE16A4A0FFDBA7BE6DFAF76F4E8 /* DreamrSupportKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -312,14 +319,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					792F71C27A65D6A862553F621EBFFD6D = {
-						LastSwiftMigration = 0800;
-					};
-					BFF822DF3140E399D36A3E949593A21A = {
-						LastSwiftMigration = 0800;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -329,40 +328,60 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 04471128B3703D6170547A37E05800D0 /* Products */;
+			productRefGroup = 94A5DB39D7C5AA48DECA9334DD2E57B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFF822DF3140E399D36A3E949593A21A /* DreamrSupportKit */,
+				84436BCF967D877755F8FB17AED82749 /* DreamrSupportKit */,
 				792F71C27A65D6A862553F621EBFFD6D /* Pods-DreamrSupportKit_Example */,
-				46590E6F543C3AEFEA94B26D275EC2F8 /* Pods-DreamrSupportKit_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		020056C857BBCA0F86E74965B07D5D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47CE37F725EC26B1F9A8EE840C4F47D /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		0079995184F648E6583A13EF21F568A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AAC152B30B65604603730665B0992A /* DreamrSupportKit-dummy.m in Sources */,
+				DE14CDB2CA7012DD9AF38D9FED9D54D0 /* FeedbackVC.swift in Sources */,
+				BA71EB72CD5C2CB5532A4723D0147E66 /* FeedbackVC.xib in Sources */,
+				47D35D93DBF2EDB8FD759842455F2947 /* GradientView.swift in Sources */,
+				A0048FBD2F31C3D78EECB5442AABCD4D /* KeyboardWatcher.swift in Sources */,
+				727567C9205AEA4731820A952F220328 /* KitModifiers.swift in Sources */,
+				A4F84C2D61491D6A9562AAC3AD45B24F /* OptionVC.swift in Sources */,
+				FAD6CA9007D255033DD2E78C1F3E3E36 /* OptionVC.xib in Sources */,
+				38E63319777F2D51C33EA612215C8A4D /* SupportButton.swift in Sources */,
+				1306401C86606BE59EB89CD73C6D46D1 /* DreamrSupportKit.swift in Sources */,
+				19C52D66125E41818C66F3F73C4E3441 /* SupportNavigationController.swift in Sources */,
+				E10842C987CAE349EB2DA1BCB1D2128F /* SupportVC.swift in Sources */,
+				AAF4F2167EF02C06AE34EB683CF19EDB /* SupportVC.xib in Sources */,
+				2F583B4A929638DDD7A27F17A279C457 /* ThanksVC.swift in Sources */,
+				E0AA65DC947E1470CC87A57839ACB74B /* ThanksVC.xib in Sources */,
+				3854C679294ABFD075AF80FCE6676D0B /* UIDevice + Custom.swift in Sources */,
+				BE80D6F45DC45D588320DA65EDFF5E9A /* UIScreen + Custom.swift in Sources */,
+				1136A7FD6C2B8317B9CB3E0C23B67999 /* WelcomeVC.swift in Sources */,
+				92FCCA64441A5CB94453FB9FC70FD368 /* WelcomeVC.xib in Sources */,
+				4D6CD9C6A86FBD070917F1BBB7C45A17 /* ZoomAnimationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5372569C830EE8949D6E25AF1B21F413 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B3A8AF04EEE22F95F77B55CF63D39D9B /* Pods-DreamrSupportKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B28C91E8CCFF4C43761B81B4A87360BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC7669A64A7BE8CFC208E39E4C250AE5 /* DreamrSupportKit-dummy.m in Sources */,
-				1F40513CD59EA20DBF2114DEF24E8721 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C981B8A3D6B3107F8265D60BD4EAF55A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DDCB35352C9B6360C7D459019E8427A /* Pods-DreamrSupportKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,86 +391,15 @@
 		A0EC3DE5D485432492237369922479E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DreamrSupportKit;
-			target = BFF822DF3140E399D36A3E949593A21A /* DreamrSupportKit */;
+			target = 84436BCF967D877755F8FB17AED82749 /* DreamrSupportKit */;
 			targetProxy = 2C8E62BCDD395521F31B6609C73FC0FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3FF9238C380A0B89B3B7ADEEC55AF4DE /* Debug */ = {
+		22F29A003DD931BE8B056E6314FD3472 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA3C3CB3D49F080745BF321D116D6AAF /* Pods-DreamrSupportKit_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DreamrSupportKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DreamrSupportKit_Tests/Pods-DreamrSupportKit_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DreamrSupportKit_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		69E49B31B49745A9D302242721ADD8FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 721D4A33EFB58ACC8B76050C27D26BDB /* Pods-DreamrSupportKit_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DreamrSupportKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DreamrSupportKit_Example/Pods-DreamrSupportKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DreamrSupportKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		81E0E63729F5AEC633C1028C48CFC920 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6F6F66B210CD19FA54184D2E2488BC7 /* Pods-DreamrSupportKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 88C4D841255F050F21F7B0084EC46F21 /* Pods-DreamrSupportKit_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -465,101 +413,27 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-DreamrSupportKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DreamrSupportKit_Example/Pods-DreamrSupportKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DreamrSupportKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		864E767531394592AD865E4D7D31E957 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAFD150D2B8D87666BF707DF45CB4EE1 /* DreamrSupportKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DreamrSupportKit/DreamrSupportKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DreamrSupportKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DreamrSupportKit/DreamrSupportKit.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DreamrSupportKit_Example/Pods-DreamrSupportKit_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DreamrSupportKit;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DreamrSupportKit_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -595,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -603,9 +477,82 @@
 			};
 			name = Debug;
 		};
-		C77FD38CD84B2D1610FE8D4FA11BE414 /* Release */ = {
+		A502C221BB49F4B48D1C0153A87C93FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4830DC838E97A371C56D06E1E5DD2757 /* Pods-DreamrSupportKit_Tests.release.xcconfig */;
+			baseConfigurationReference = BEA5F115286018F43F2D9830F986C48B /* DreamrSupportKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DreamrSupportKit/DreamrSupportKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DreamrSupportKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DreamrSupportKit/DreamrSupportKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DreamrSupportKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBDFBF4D51B52CD33A3A7AEB53325ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F64A552147DDDA5AA824C8F3A52BD5 /* Pods-DreamrSupportKit_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -618,18 +565,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DreamrSupportKit_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DreamrSupportKit_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DreamrSupportKit_Tests/Pods-DreamrSupportKit_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DreamrSupportKit_Example/Pods-DreamrSupportKit_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DreamrSupportKit_Tests;
+				PRODUCT_NAME = Pods_DreamrSupportKit_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -638,9 +585,9 @@
 			};
 			name = Release;
 		};
-		D17994A9CECCF53988D5823C434CD097 /* Release */ = {
+		FED390310460EB64CF01B791C50AEAB3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAFD150D2B8D87666BF707DF45CB4EE1 /* DreamrSupportKit.xcconfig */;
+			baseConfigurationReference = BEA5F115286018F43F2D9830F986C48B /* DreamrSupportKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -676,26 +623,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE0C823B780604B5C9F65D1A9C26A4EB /* Build configuration list for PBXNativeTarget "Pods-DreamrSupportKit_Tests" */ = {
+		E6E1C28274A7C522C614645545353B37 /* Build configuration list for PBXNativeTarget "DreamrSupportKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FF9238C380A0B89B3B7ADEEC55AF4DE /* Debug */,
-				C77FD38CD84B2D1610FE8D4FA11BE414 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0F9E6B69D5F1592137A2635550047F4 /* Build configuration list for PBXNativeTarget "DreamrSupportKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				864E767531394592AD865E4D7D31E957 /* Debug */,
-				D17994A9CECCF53988D5823C434CD097 /* Release */,
+				A502C221BB49F4B48D1C0153A87C93FA /* Debug */,
+				FED390310460EB64CF01B791C50AEAB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -703,8 +641,8 @@
 		FEBB8E80B05609F84BC4C9239F2197F4 /* Build configuration list for PBXNativeTarget "Pods-DreamrSupportKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81E0E63729F5AEC633C1028C48CFC920 /* Debug */,
-				69E49B31B49745A9D302242721ADD8FD /* Release */,
+				22F29A003DD931BE8B056E6314FD3472 /* Debug */,
+				FBDFBF4D51B52CD33A3A7AEB53325ADE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
