@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DreamrSupportKit_Example' do
+  pod 'DreamrSupportKit', :path => '../'
+
+  target 'DreamrSupportKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
