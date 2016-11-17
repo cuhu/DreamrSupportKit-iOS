@@ -24,7 +24,7 @@
 import UIKit
 import MessageUI
 
-enum FeedbackType:String {
+enum FeedbackType: String {
     case Problem = "Problem"
     case Improve = "Improvement"
     case Feedback = "Feedback"
@@ -32,24 +32,22 @@ enum FeedbackType:String {
 
 public class FeedbackVC: UIViewController {
     
+    @IBOutlet fileprivate weak var containerView: GradientView!
+    @IBOutlet fileprivate weak var imageView: UIImageView!
+    @IBOutlet fileprivate weak var titleLbl: UILabel!
+    @IBOutlet fileprivate weak var descriptionLbl: UILabel!
+    @IBOutlet fileprivate weak var textView: UITextView!
+    @IBOutlet fileprivate weak var twoImagesView: UIView!
+    @IBOutlet fileprivate weak var doneBtn: UIButton!
+    @IBOutlet fileprivate weak var leftCS: NSLayoutConstraint!
+    @IBOutlet fileprivate weak var rightCS: NSLayoutConstraint!
+    @IBOutlet fileprivate weak var heightCS: NSLayoutConstraint!
+    @IBOutlet fileprivate weak var yAxisCS: NSLayoutConstraint!
+    @IBOutlet fileprivate weak var textViewTopCS: NSLayoutConstraint!
     
-    @IBOutlet weak var containerView: GradientView!
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var titleLbl: UILabel!
-    @IBOutlet weak var descriptionLbl: UILabel!
-    @IBOutlet weak var textView: UITextView!
-    @IBOutlet weak var twoImagesView: UIView!
-    @IBOutlet weak var doneBtn: UIButton!
-    
-    @IBOutlet weak var leftCS: NSLayoutConstraint!
-    @IBOutlet weak var rightCS: NSLayoutConstraint!
-    @IBOutlet weak var heightCS: NSLayoutConstraint!
-    @IBOutlet weak var yAxisCS: NSLayoutConstraint!
-    @IBOutlet weak var textViewTopCS: NSLayoutConstraint!
-    
-    var keyboardWatcher:KeyboardWatcher!
-    var type:FeedbackType!
-    var modifers:KitModifiers!
+    fileprivate var keyboardWatcher:KeyboardWatcher!
+    fileprivate var type:FeedbackType!
+    fileprivate var modifers:KitModifiers!
     
     init(withType type:FeedbackType, withModifiers mods:KitModifiers) {
         self.type = type
@@ -178,8 +176,14 @@ public class FeedbackVC: UIViewController {
     }
     
     func showSendMailErrorAlert() {
-        let sendMailErrorAlert = UIAlertView(title: "Could Not Send Email", message: "Your device could not send e-mail.  Please check e-mail configuration and try again.", delegate: self, cancelButtonTitle: "OK")
-        sendMailErrorAlert.show()
+        let alertController = UIAlertController(
+            title: "Could Not Send Email",
+            message: "Your device could not send e-mail. Please check e-mail configuration and try again.",
+            preferredStyle: .alert
+        )
+        
+        alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
     }
 }
 
@@ -207,7 +211,7 @@ extension FeedbackVC: KeyboardHeightChangeDelegate {
     }
 }
 
-extension FeedbackVC:MFMailComposeViewControllerDelegate {
+extension FeedbackVC: MFMailComposeViewControllerDelegate {
     public func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         self.containerView.alpha = 0.0
         self.view.endEditing(true)

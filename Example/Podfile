@@ -1,5 +1,7 @@
 use_frameworks!
 
 target 'DreamrSupportKit_Example' do
+    
   pod 'DreamrSupportKit', :path => '../'
+  
 end
