@@ -150,11 +150,12 @@ public class FeedbackVC: UIViewController {
     
     @IBAction func done() {
         
-        let mailComposeViewController = configuredMailComposeViewController()
         if MFMailComposeViewController.canSendMail() {
+            let mailComposeViewController = configuredMailComposeViewController()
             self.present(mailComposeViewController, animated: true, completion: nil)
         } else {
             self.showSendMailErrorAlert()
+            view.endEditing(true)
         }
     }
     
